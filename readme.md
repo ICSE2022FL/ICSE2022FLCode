@@ -37,7 +37,6 @@ data_process
 |	 |____undersampling.py
 |____dimensional_reduction :feature selection
 |	 |____PCA.py		
-|	 |____pearson.py
 metrics : SFL and DLFL metrics
 |____calc_corr.py
 |____dl_metrics.py
