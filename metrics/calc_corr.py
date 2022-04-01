@@ -1,6 +1,5 @@
 from .metrics import *
 from .dl_metrics import *
-from .fs_metrics import *
 
 def calc_corr(data, method):
     features_list = list(data.columns)[:-1]
