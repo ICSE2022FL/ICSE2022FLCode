@@ -1,4 +1,25 @@
 # :warning: The comparison of SMOTE and Aeneas
+SMOTE is a oversampling technique that should be involved in our evaluation.
+Due to the space limitaion, we show the results of SMOTE in this github repo.
+The table below shows the results of the comparison of SMOTE and our approach and the results demonstrate the SMOTE performs well in most cases when compared with original methods and underperforms Aeneas. 
+
+| | |Dstar|Ochiai|Barinel|RNN-FL|MLP-FL|CNN-FL|
+|:----|:----|:----|:----|:----|:----|:----|:----|
+| |origin|448.23|464.89|485.80|1311.63|1816.47|773.57|
+|MFR |SMOTE|469.13|482.16|485.74|559.45|492.56|518.63|
+| |Aeneas|361.08|333.82|332.54|376.03|334.78|417.56|
+||origin|42|42|38|9|9|31|
+|TOP-1 |SMOTE|40|40|38|9|40|40|
+| |Aeneas|45|45|42|15|46|45|
+||origin|98|98|86|33|24|71|
+|TOP-3 |SMOTE|90|91|86|38|89|90|
+| |Aeneas|98|99|99|48|98|98|
+||origin|120|122|116|52|30|81|
+|TOP-5 |SMOTE|114|114|115|60|114|114|
+| |Aeneas|127|127|131|73|127|128|
+||origin|828.84|792.77|807.64|1690.55|2165.98|1167.79|
+|MAR |SMOTE|923.32|874.83|899.74|1203.34|973.37|881.86|
+| |Aeneas|714.05|631.79|611.82|638.54|594.88|767.40|
 
 # A Universal Data Augmentation Approach for Fault Localization
 
