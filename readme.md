@@ -1,11 +1,10 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 # :warning: The comparison of SMOTE and Aeneas :warning:
 
 SMOTE is a oversampling technique that should be involved in our evaluation. The SMOTE algorithm creates artificial data based on the feature space similarities between existing minority examples.
 The formula of SMOTE is 
 ![](https://latex.codecogs.com/gif.latex?x\_{new}=x\_i+(x\_i-x\_j)*\\delta), 
-where ![](https://latex.codecogs.com/gif.latex?x_i) is the 
+where ![](https://latex.codecogs.com/gif.latex?x_i) and ![](https://latex.codecogs.com/gif.latex?x_j) are the nearest neighbors of same class, ![](https://latex.codecogs.com/gif.latex?\\delta\\in\\[0,1\\]) is a random number.
 
 Due to the space limitaion, we show the results of SMOTE in this github repo.
 The table below shows the results of the comparison of SMOTE and our approach and the results demonstrate the SMOTE performs well in most cases when compared with original methods and underperforms Aeneas. 
