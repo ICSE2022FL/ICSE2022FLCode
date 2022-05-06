@@ -4,7 +4,7 @@
 
 SMOTE is a oversampling technique that should be involved in our evaluation. The SMOTE algorithm creates artificial data based on the feature space similarities between existing minority examples.
 The formula of SMOTE is 
-![](https://latex.codecogs.com/gif.latex?x_{new}=x_i+(x_i-x_j)*\delta), 
+![](https://latex.codecogs.com/gif.latex?x\_{new}=x\_i+(x\_i-x\_j)*\\delta), 
 where ![](https://latex.codecogs.com/gif.latex?x_i) is the 
 
 Due to the space limitaion, we show the results of SMOTE in this github repo.
