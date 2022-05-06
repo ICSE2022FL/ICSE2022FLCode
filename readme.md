@@ -27,8 +27,10 @@ The table below shows the results of the comparison of SMOTE and our approach an
 | MAR   | SMOTE  | 923.32 | 874.83 | 899.74  | 1203.34 | 973.37  | 881.86  |
 |       | Aeneas | 714.05 | 631.79 | 611.82  | 638.54  | 594.88  | 767.40  |
 
+### boxplot
 ![](boxplot.png)
 
+### Wilcoxon signed-rank test
 | method  | comparison | greater |   less   | two-sided | conclusion |
 | :-----: | :--------: | :-----: | :------: | :-------: | :--------: |
 |  Dstar  |   SMOTE    |    1    | 8.72E-34 | 1.74E-33  |   BETTER   |
