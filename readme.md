@@ -7,7 +7,7 @@ The formula of SMOTE is :
 $$
 x_{new}=x_i+(x_i-x_j)*\delta,
 $$
-where \\(x_i\\)
+where ![](https://latex.codecogs.com/gif.latex?x_i)
 
 Due to the space limitaion, we show the results of SMOTE in this github repo.
 The table below shows the results of the comparison of SMOTE and our approach and the results demonstrate the SMOTE performs well in most cases when compared with original methods and underperforms Aeneas. 
