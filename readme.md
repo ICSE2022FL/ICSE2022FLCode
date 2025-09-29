@@ -1,5 +1,5 @@
 
-# :warning: The comparison of SMOTE and Aeneas :warning:
+# :warning: The comparison of SMOTE and Aeneas
 
 SMOTE is a oversampling technique that should be involved in our evaluation. The SMOTE algorithm creates artificial data based on the feature space similarities between existing minority examples.
 The formula of SMOTE is 
